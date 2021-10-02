@@ -1,0 +1,1888 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Source Sans Pro', sans-serif;
+}
+/* Navbar Style Starts Here */
+.navbar{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+/* Nav-Left Style Starts Here */
+.nav-left ul{
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+}
+.nav-left ul li{
+    padding: 27px 16px;
+}
+.nav-left img{
+    width: 70px;
+}
+.nav-left ul li:hover{
+    background: #04AA6D;
+    color: #FFFFE8;
+}
+.nav-left .new{
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-left: 3px;
+    color: #000000;
+    background: #FFF4A3;
+}
+/* Nav-Left Style Ends Here */
+
+/* Nav-Right Style Starts Here */
+.nav-right ul {
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+}
+.nav-right ul {
+    padding: 16px 0px;
+}
+/* Toggle icon Style Starts */
+.toggle{
+
+    display: inline-block;
+    width: 135px;
+    /* border: 1px solid red; */
+}
+.toggle ul li{
+    padding: 8px 12px;
+}
+/* Toggle Icon Style End */
+
+.crs{
+    display: inline-block;
+    width: 298px;
+
+}
+.crs ul li{
+    margin:0px 5px;
+    /* padding: 12px 16px; */
+}
+.fas{
+    font-size: 20px;
+}
+.fas:hover{
+    
+    color:#04AA6D;
+}
+.w3-website{
+    background: #FFC0C7;
+    border-radius: 25px;
+    padding: 10px 16px;
+    font-size: 17px;
+    line-height: 20px;
+}
+.w3-website:hover{
+    background: #04AA6D;
+    color:#FFFFE8 ;
+}
+.w3-course{
+    font-size: 17px;
+    padding: 10px 20px;
+}
+.w3-course:hover{
+    border-radius: 25px;
+    background: #04AA6D;
+    color:#FFFFE8 ;
+}
+.w3-new{
+
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-left: 3px;
+    color: #000000;
+    background: #FFF4A3;
+}
+/* Login Button Style Starts Here */
+.login{
+    display: inline-block;
+    width: 130px;
+    padding:22px 0px ;
+}
+.login a{
+    background: #04AA6D;
+    color:#FFFFE8 ;
+    padding: 10px 40px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    line-height: 30px;
+}
+/* Login Button style Ends Here */
+
+
+/* HTML Section Style */
+.html-section{
+    height: 535px;
+    width: 100%;
+    background: #282A35;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left-Side Style Starts */
+.left-side{
+
+    width: 50%;
+    height: 440px;
+    margin: 30px 0px;
+    color: white;
+    display: block;
+}
+
+/* H1 Style */
+.left-side h1{
+    font-size: 110px;
+    font-weight: 700;
+    width: 550px;
+    height: 150px;
+    margin: 10px 70px;
+    text-align: center;
+}
+
+/* Paragraph Style */
+.left-side p{
+    font-size: 20px;
+    width: 550px;
+    height: 30px;
+    margin: 10px 75px;
+    line-height: 20px;
+    text-align: center;
+}
+
+/* H3 Style */
+.left-side h3{
+
+    width: 200px;
+    height: 45px;
+    margin: 20px 250px;
+}
+
+.l-html{
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 20px;
+    background: #09b677;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.l-html:hover{
+    background: #059862;
+}
+
+.video-tut{
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 20px;
+    background: #eee28a;
+    cursor: pointer;
+    color: #282A35;
+    position: relative;
+}
+
+.vd-new{
+   position: absolute;
+   bottom: 25px;
+   left: -20px;
+   font-size: 15px;
+   padding: 5px 15px;
+   background: pink;
+   color: #000;
+   border-radius: 20px;
+   transform: rotate(340deg);
+ 
+}
+.video-tut:hover{
+    background: #FFF080;
+}
+
+.html-ref{
+
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 20px;
+    background: #f6f8fa;
+    cursor: pointer;
+    color: #282A35;
+}
+
+.html-ref:hover{
+    background: #E7E9EB;
+}
+/* Left-Side Style End */
+
+/* Right-Side Style Starts */
+.right-side{
+
+    width: 50%;
+    height: 470px;
+    margin: 30px 0px;
+    display: block;
+}
+
+/* Box Style */
+.right-side .html-box{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 30px 30px;
+    background: #E7E9EB;
+
+}
+.html-box h4{
+
+    display: inline-block;
+    width: 560px;
+    height: 35px;
+    margin: 15px;
+    font-size: 24px;
+}
+
+/* Inner-Box Style */
+.html-box .inner-box{
+
+    display: inline-block;
+    width: 560px;
+    height:250px ;
+    margin: 5px 15px;
+    border-left: 4px solid #059862;
+    padding: 10px 12px;
+    line-height: 22px;
+    background: #FFFFFF;
+}
+
+/* Button Style */
+.html-box .html-btn{
+
+    width: 200px;
+    line-height: 30px;
+    height: 45px;
+    padding: 8px 45px;
+    border-radius: 50px;
+    margin: 10px;
+    background: #09b677;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* Code Text Style */
+.code .bracket{
+    color: blue;
+}
+
+.code .tagname{
+    color: #B92A2A;
+}
+
+.code .attr-name{
+    color: #FF0000;
+}
+
+.html-box .html-btn:hover{
+    background: #059862;
+}
+/* Right-Side Style Ends */
+
+/* Css Section Style */
+
+.css-section{
+
+    height: 535px;
+    width: 100%;
+    background: #D9EEE1;
+    display: flex;
+    justify-content: space-between;
+}
+/* Css-Left Style */
+.css-left{
+    width: 50%;
+    height: 440px;
+    margin: 30px 0px;
+    display: block;
+}
+/* Css-Left H1 Style */
+.css-left h1{
+    font-size: 110px;
+    font-weight: 700;
+    width: 550px;
+    height: 150px;
+    margin: 10px 70px;
+    text-align: center;
+}
+/* CSS-Style paragraph Style */
+.css-left p{
+    font-size: 20px;
+    width: 550px;
+    height: 30px;
+    margin: 10px 75px;
+    line-height: 20px;
+    text-align: center;
+}
+/* CSS-Style H3 Style */
+.css-left h3{
+    width: 200px;
+    height: 45px;
+    margin: 20px 250px;
+}
+
+.l-css{
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 20px;
+    background: #09b677;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.l-css:hover{
+    background: #059862;
+}
+
+.css-ref{
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 20px;
+    background: #2b2a2a;
+    cursor: pointer;
+    color: #E7E9EB;
+}
+.css-ref:hover{
+    background: #000000;
+}
+
+/* CSS-Right Style  */
+.css-right{
+
+    width: 50%;
+    height: 470px;
+    margin: 30px 0px;
+    display: block;
+}
+
+/* CSS-Box Style */
+.css-right .css-box{
+    width: 600px;
+    height: 400px;
+    box-shadow: 0px 0px 5px #939396;
+    border-radius: 10px;
+    margin: 30px 30px;
+    background:#E7E9EB;
+}
+/* CSS-Right H4 Style */
+.css-right h4{
+    display: inline-block;
+    width: 560px;
+    height: 35px;
+    margin: 15px;
+    font-size: 24px;
+}
+/* Inner-Box Style */
+.css-box .inner-box{
+
+    display: inline-block;
+    width: 560px;
+    height:250px ;
+    margin: 5px 15px;
+    border-left: 4px solid #059862;
+    padding: 10px 12px;
+    line-height: 22px;
+    background: #FFFFFF;
+}
+
+.css-tagname{
+
+    color: #C5672A;
+}
+
+.css-attr{
+
+    color: #FF0000;
+}
+
+.css-value{
+
+    color: #2323e7;
+}
+/* Css-Button Style */
+.css-box .css-btn{
+
+    width: 200px;
+    line-height: 30px;
+    height: 45px;
+    padding: 8px 45px;
+    border-radius: 50px;
+    margin: 10px;
+    background: #09b677;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.css-box .css-btn:hover{
+    background: #059862;
+}
+/* CSS-Section Style Ends */
+
+/* Js Section Style  Starts*/
+.js-section{
+    height: 535px;
+    width: 100%;
+    background: #FFF4A3;
+    display: flex;
+    justify-content: space-between;
+}
+/* js-left Style */
+.js-left{
+    width: 50%;
+    height: 440px;
+    margin: 30px 0px;
+    display: block;
+}
+/* Js-left H1 Style */
+.js-left h1{
+    font-size: 80px;
+    font-weight: 800;
+    width: 550px;
+    height: 100px;
+    margin: 10px 70px;
+    text-align: center;
+}
+
+/* Js-left Paragraph Style */
+.js-left p{
+    font-size: 20px;
+    width: 550px;
+    height: 30px;
+    margin: 10px 75px;
+    line-height: 20px;
+    text-align: center;
+}
+/* Js-left H3 Style */
+.js-left h3{
+    width: 215px;
+    height: 45px;
+    margin: 20px 250px;
+}
+
+.l-js{
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 20px;
+    background: #09b677;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.l-js:hover{
+    background: #059862;
+}
+
+.js-ref{
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    background: #2b2a2a;
+    cursor: pointer;
+    color: #E7E9EB;
+}
+
+.js-ref:hover{
+    background: #000000;
+}
+
+/* Js-Right Style */
+.js-right{
+
+    width: 50%;
+    height: 470px;
+    margin: 30px 0px;
+    display: block;
+}
+
+/* js-Box Style */
+.js-right .js-box{
+    width: 600px;
+    height: 400px;
+    box-shadow: 0px 0px 5px #939396;
+    border-radius: 10px;
+    margin: 30px 30px;
+    background:#E7E9EB;
+}
+
+/* Js-Right H4 Style */
+.js-right h4{
+    display: inline-block;
+    width: 560px;
+    height: 35px;
+    margin: 15px;
+    font-size: 24px;
+}
+/* Inner-Box Style */
+.js-box .inner-box{
+    display: inline-block;
+    width: 560px;
+    height:250px ;
+    margin: 5px 15px;
+    border-left: 4px solid #059862;
+    padding: 10px 12px;
+    line-height: 30px;
+    background: #FFFFFF;
+}
+/* js-Button Style */
+ .js-btn{
+    width: 200px;
+    line-height: 30px;
+    height: 45px;
+    padding: 8px 45px;
+    border-radius: 50px;
+    margin: 10px;
+    background: #09b677;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.js-span{
+    line-height: 25px;
+    
+}
+.js-bracket{
+
+    color: #045ca0;
+}
+
+.js-tagname{
+    color: #FF0000;
+}
+
+.js-event{
+    color: #d67418;
+}
+.js-fncn{
+    color: #5200D0;
+}
+.js-btn:hover{
+    background: #059862;
+}
+/* Js-Section Style Ends */
+
+/* Py-Section Style */
+
+.py-section{
+    height: 480px;
+    width: 100%;
+    background: #282A35;
+    display: flex;
+    justify-content: space-between;
+}
+.py-left{
+    width: 50%;
+    height: 440px;
+    margin: 30px 0px;
+    color: white;
+    display: block;
+}
+
+.py-left h1{
+    font-size: 80px;
+    font-weight: 800;
+    width: 550px;
+    height: 100px;
+    margin: 10px 70px;
+    text-align: center;
+}
+
+.py-left p{
+    font-size: 20px;
+    width: 550px;
+    height: 30px;
+    margin: 10px 75px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.py-left h3{
+    width: 215px;
+    height: 45px;
+    margin: 20px 250px;
+}
+.py-learn{
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 20px;
+    background: #09b677;
+    cursor: pointer;
+    color: #E7E9EB;
+}
+.py-learn:hover{
+    background: #059862;
+}
+.py-ref{
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    background: #FFFFFF;
+    cursor: pointer;
+    color: #000000;
+}
+.py-ref:hover{
+    background: #E7E9EB;
+}
+/* Py-Left Style Ends */
+
+/* Py-Right Style Starts */
+.py-right{
+    width: 50%;
+    height: 470px;
+    margin: 30px 0px;
+    display: block;
+}
+
+.py-box h4{
+    display: inline-block;
+    width: 560px;
+    height: 35px;
+    margin: 15px;
+    font-size: 24px;
+}
+.py-right .py-box{
+    width: 600px;
+    height: 350px;
+    box-shadow: 0px 0px 5px #939396;
+    border-radius: 10px;
+    margin: 30px 30px;
+    background:#E7E9EB;
+}
+
+.py-box .inner-box{
+    display: inline-block;
+    width: 560px;
+    height:200px ;
+    margin: 5px 15px;
+    border-left: 4px solid #059862;
+    padding: 10px 12px;
+    line-height: 30px;
+    background: #FFFFFF;
+}
+.py-tag{
+
+    color: #0082E4;
+}
+.py-value{
+
+    color: #FF0000;
+    margin-left: 5px;
+}
+.py-prnt{
+    margin-left: 15px;
+}
+.py-text{
+
+    color: #A52A2A;
+}
+
+.py-btn{
+    width: 200px;
+    line-height: 30px;
+    height: 45px;
+    padding: 8px 45px;
+    border-radius: 50px;
+    margin: 10px;
+    background: #09b677;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.py-btn:hover{
+    background: #059862;
+}
+/* Py-Right Style Ends */
+
+/* SQL-Section Style Starts */
+
+.sql-section{
+
+    height: 480px;
+    width: 100%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sql-left{
+    width: 50%;
+    height: 440px;
+    margin: 30px 0px;
+    display: block;
+}
+
+.sql-left h1{
+    font-size: 85px;
+    width: 550px;
+    height: 100px;
+    margin: 10px 70px;
+    text-align: center;
+}
+
+.sql-left p{
+    font-size: 20px;
+    width: 550px;
+    height: 30px;
+    margin: 10px 75px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.sql-left h3{
+    width: 215px;
+    height: 45px;
+    margin: 20px 250px;
+}
+
+.sql-learn{
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 20px;
+    background: #09b677;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.sql-learn:hover{
+    background: #059862;
+}
+
+.sql-ref{
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    background: #302f2f ;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.sql-ref:hover{
+    background: #000000;
+}
+/* SQL-Left Section Style Ends */
+
+/* SQL-Right Section Style */
+
+.sql-right{
+    width: 50%;
+    height: 470px;
+    margin: 30px 0px;
+    display: block;
+}
+
+.sql-box h4{
+    display: inline-block;
+    width: 560px;
+    height: 35px;
+    margin: 15px;
+    font-size: 24px;
+}
+
+.sql-right .sql-box{
+    width: 600px;
+    height: 350px;
+    box-shadow: 0px 0px 5px #939396;
+    border-radius: 10px;
+    margin: 30px 30px;
+    background:#E7E9EB;
+}
+
+.sql-box .inner-box{
+    display: inline-block;
+    width: 560px;
+    height:200px ;
+    margin: 5px 15px;
+    border-left: 4px solid #059862;
+    padding: 10px 12px;
+    line-height: 30px;
+    background: #FFFFFF;
+}
+
+.sql-box .tag{
+
+    color: #0000D0;
+}
+.sql-box .value{
+
+    color: #B92A2A;
+}
+
+.sql-btn{
+    width: 200px;
+    line-height: 30px;
+    height: 45px;
+    padding: 8px 45px;
+    border-radius: 50px;
+    margin: 10px;
+    background: #09b677;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.sql-btn:hover{
+    background: #059862;
+}
+/* SQL-Right Style Ends */
+
+
+/* Course-Overview Section Style */
+
+.course-overview{
+     width: 100%;
+     height: 1080px;
+     background: #282A35;
+}
+
+.course-list{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left-Course Style Starts */
+.left-course{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.course-box{
+
+    width: 600px;
+    height: 250px;
+    margin: 20px 30px;
+}
+/* php-Box Style Starts */
+.php-box{
+    display: inline-block;
+    background: #FFC0C7;
+    border-radius: 10px;
+}
+.php-box h2{
+
+    width: 570px;
+    height: 60px;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin: 30px 10px 10px 10px;
+}
+
+.php-box p{
+    
+    width: 570px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px 10px 10px 10px;
+}
+
+.l-php{
+    width: 200px;
+    height: 44px;
+    font-size: 20px;
+    margin: 0px 200px;
+    padding: 6px 50px;
+    border-radius: 25px;
+    background: #302f2f ;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.l-php:hover{
+    background: #000000;
+}
+/* Php-Box Style Ends */
+
+/* Java-Box Style Starts */
+.java-box{
+    display: inline-block;
+    background: #F3ECEA;
+    border-radius: 10px;
+}
+
+.java-box h2{
+    width: 570px;
+    height: 60px;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin: 30px 10px 10px 10px;
+}
+
+.java-box p{
+    width: 570px;
+    height: 60px;
+    word-spacing: 2px;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px 10px 10px 10px;
+}
+
+.l-java{
+    width: 200px;
+    height: 44px;
+    font-size: 20px;
+    margin: 0px 200px;
+    padding: 6px 50px;
+    border-radius: 25px;
+    background: #302f2f ;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.l-java:hover{
+    background: #000000;
+}
+
+/* Java-Box Style Ends */
+
+/* W3-Box Style Starts */
+.w3-box{
+    display: inline-block;
+    background: #96D4D4;
+    border-radius: 10px;
+    height: 360px;
+}
+
+.w3-box h2{
+    width: 570px;
+    height: 60px;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin: 30px 10px 10px 10px;
+}
+
+.w3-box p{
+    width: 570px;
+    height: 60px;
+    word-spacing: 2px;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px 10px 10px 10px;
+}
+
+.l-w3{
+    width: 220px;
+    height: 44px;
+    font-size: 20px;
+    margin: 50px 200px;
+    padding: 6px 50px;
+    border-radius: 25px;
+    background: #302f2f ;
+    color: #FFFFFF;
+    cursor: pointer; 
+}
+.l-w3:hover{
+    background: #000000;
+}
+/* W3-B0x Style Ends */
+/* Left-Course Style Ends*/
+
+/* Right-Course Style Starts */
+.right-course{
+    width: 50%;
+    margin-top: 50px;
+}
+
+/* Jquery-Box Style Starts */
+.jquery-box{
+    display: inline-block;
+    background: #FFF4A3;
+    border-radius: 10px;
+}
+
+.jquery-box h2{
+    width: 570px;
+    height: 60px;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin: 30px 10px 10px 10px;
+}
+
+.jquery-box p{
+    width: 570px;
+    height: 60px;
+    word-spacing: 2px;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px 10px 10px 10px;
+}
+
+.l-jquery{
+    width: 220px;
+    height: 44px;
+    font-size: 20px;
+    margin: 0px 200px;
+    padding: 6px 50px;
+    border-radius: 25px;
+    background: #302f2f ;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.l-jquery:hover{
+    background: #000000;
+}
+/* Jquery-Box Style Ends */
+
+/* C-Box Style Starts */
+.c-box{
+    display: inline-block;
+    background: #D9EEE1;
+    border-radius: 10px;
+}
+
+.c-box h2{
+    width: 570px;
+    height: 60px;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin: 30px 10px 10px 10px;
+}
+
+.c-box p{
+    width: 570px;
+    height: 60px;
+    word-spacing: 2px;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px 10px 10px 10px;
+}
+
+.l-cPlus{
+    width: 200px;
+    height: 44px;
+    font-size: 20px;
+    margin: 0px 200px;
+    padding: 6px 55px;
+    border-radius: 25px;
+    background: #302f2f ;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.l-cPlus:hover{
+    background: #000000;
+}
+/* C-B0x Style Ends */
+
+/* Bootstrap-Box Style starts */
+.bootstrap-box{
+    display: inline-block;
+    background: #E7E9EB;
+    border-radius: 10px;
+    height: 360px;
+}
+
+.bootstrap-box h2{
+    width: 570px;
+    height: 60px;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin: 30px 10px 10px 10px;
+}
+
+.bootstrap-box p{
+    width: 570px;
+    height: 60px;
+    word-spacing: 2px;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px 10px 10px 10px;
+}
+
+.bs3{
+    width: 200px;
+    height: 44px;
+    font-size: 20px;
+    margin: 10px 200px;
+    padding: 6px 55px;
+    border-radius: 25px;
+    background: #302f2f ;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.bs4{
+    width: 200px;
+    height: 44px;
+    font-size: 20px;
+    margin: 10px 200px;
+    padding: 6px 55px;
+    border-radius: 25px;
+    background: #302f2f ;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.bs5{
+    width: 200px;
+    height: 44px;
+    font-size: 20px;
+    margin: 0px 200px;
+    padding: 6px 55px;
+    border-radius: 25px;
+    background: #302f2f ;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.bs3:hover{
+    background: #000000;
+}
+
+.bs4:hover{
+    background: #000000;
+}
+
+.bs5:hover{
+    background: #000000;
+}
+/* Boostrap-Box Style Ends */
+/* Right-Course Style Ends */
+
+/* Grid-Container Style */
+.grid-container{
+    width: 100%;
+    height: 1050px;
+    background: #282A35;
+}
+/* Course-list-btn Style */
+.course-list-btn{
+
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(7, 100px);
+    grid-gap:50px 90px ;
+    margin: 0px 38px;
+   
+
+}
+
+/* Course-btn Style */
+.course-btn{
+    font-size: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.csharp{
+
+    background: #eec8cc;
+}
+.csharp:hover{
+
+    background: #FFC0C7;
+}
+.R{
+    background: #e2da9f;
+}
+.R:hover{
+    background: #FFF4A3;
+}
+.kotlin{
+
+    background: #e7e2e2;
+}
+.kotlin:hover{
+    background: #DED8D8;
+}
+.mysql{
+
+    background: #d2e0d8;
+}
+
+.mysql:hover{
+    background: #C7DACF;
+}
+.nodejs{
+
+    background: #a6d8d8;
+}
+
+.nodejs:hover{
+    background: #96D4D4;
+}
+.react{
+
+    background: #e2babf;
+}
+.react:hover{
+    background: #E9B1B8;
+}
+.json{
+
+    background: #e2dba3;
+}
+.json:hover{
+    background: #E9DF98;
+}
+.angularjs{
+
+    background: #eee8e8;
+}
+.angularjs:hover{
+    background: #DED8D8;
+}
+.w3{
+
+    background: #cfe0d6;
+}
+.w3:hover{
+    background: #bdeccf;
+}
+.xml{
+
+    background: #b5dcdd;
+}
+.xml:hover{
+    background: #8BC3C4;
+}
+.sass{
+
+    background: #e7c1c6;
+}
+.sass:hover{
+    background: #E9B1B8;
+}
+.icons{
+
+    background: #ece5b1;
+}
+.icons:hover{
+    background: #E9DF98;
+}
+.rwd{
+
+    background: #DED8D8;
+}
+.rwd:hover{
+    background: #c4b7b7;
+}
+.graphics{
+
+    background: #d1e0d8;
+}
+.graphics:hover{
+    background: #C7DACF;
+}
+.svg{
+
+    background: #b3dbdb;
+}
+.svg:hover{
+    background: #8BC3C4;
+}
+.canvas{
+
+    background: #e6bfc3;
+}
+.canvas:hover{
+    background: #E9B1B8;
+}
+.rasbpi{
+
+    background: #e7e1b3;
+}
+.rasbpi:hover{
+    background: #FFF4A3;
+}
+.cyber{
+
+    background: #F3ECEA;
+}
+.cyber:hover{
+    background: #d6c5c0;
+}
+.colors{
+
+    background: #e3f0e8;
+}
+.colors:hover{
+    background: #D9EEE1;
+}
+.git{
+
+    background: #b9dbdb;
+}
+.git:hover{
+    background: #96D4D4;
+}
+.matlib{
+
+    background: #E7E9EB;
+}
+.matlib:hover{
+    background: #b7c1cc;
+}
+.numpy{
+
+    background: #e9e2ac;
+}
+.numpy:hover{
+    background: #FFF4A3;
+}
+.pandas{
+
+    background: #F3ECEA;
+}
+.pandas:hover{
+    background: #ddcbc6;
+}
+.scipy{
+
+    background: #D9EEE1;
+}
+.scipy:hover{
+    background: #bad8c6;
+}
+.asp{
+
+    background: #dbe9e0;
+}
+.asp:hover{
+    background: #bbe2ca;
+}
+.access{
+
+    background: #E7E9EB;
+}
+.access:hover{
+    background: #b5c0cc;
+}
+.appml{
+
+    background: #e9e1a9;
+}
+.appml:hover{
+    background: #FFF4A3;
+}
+.go{
+
+    background: #DED8D8;
+}
+.go:hover{
+    background: #c0adad;
+}
+/* Grid-Container Style Ends */
+
+/* course-container Style Starts */
+.course-container{
+    width: 100%;
+    height: 550px;
+    background: #282A35;
+}
+
+/* List-items Style */
+.list-items{
+    display: grid;
+    grid-template-columns: repeat(2,600px);
+    grid-template-rows: repeat(3 , 120px);
+    grid-gap: 50px 80px;
+    margin: 0px 30px;
+}
+/* List-btn Style */
+.list-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.excel{
+
+    background: #05b675;
+    color: #FFFFFF;
+}
+.excel:hover{
+    background: #04AA6D;
+}
+.gsheets{
+
+    background: #cee0d6;
+}
+.gsheets:hover{
+    background: #acccb9;
+}
+.mlearning{
+
+    background: #e7b8be;
+}
+.mlearning:hover{
+    background: #E9B1B8;
+}
+.ai{
+
+    background: #DED8D8;
+}
+.ai:hover{
+    background: #d6cdcd;
+}
+.statistic{
+
+    background: #ace4e4;
+}
+.statistic:hover{
+    background: #96D4D4;
+}
+.datascience{
+
+    background: #ebe3ab;
+}
+.datascience:hover{
+    background: #E9DF98;
+}
+/* Course-Container Style Ends */
+
+/* color-picker Section Style */
+.color-picker{
+    width: 100%;
+    height: 450px;
+    background: #F3ECEA;
+
+}
+/* Color-Picker-Item Section Style */
+.color-picker-items h3{
+    text-align: center;
+    font-size: 70px;
+    padding-top: 50px;
+    
+}
+.color-picker-items p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.color-picker-items img{
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+.color-picker-items img:hover{
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+/* Color-Picker Section Style */
+
+/* Code-Games Section Style */
+.code-games{
+    width: 100%;
+    height: 500px;
+    background: #96D4D4;
+}
+
+.code-games h3{
+    font-family: 'Freckle Face', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+.code-games p{
+    font-family: 'Freckle Face', cursive;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.code-games img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.code-games img:hover{
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.code-games h2{
+   width: 200px;
+   height: 42px;
+   font-size: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   background: #272626;
+   color: #FFFFFF;
+   padding: 5px 0px;
+   text-align: center;
+   margin-top: 20px;
+   border-radius: 20px;
+   cursor: pointer;
+}
+.code-games h2:hover{
+    background: #000;
+}
+/* Coding-Games Section Style Ends */
+
+/*{ exercise-section Style Starts */
+.exercise-section{
+
+    width: 100%;
+    height: 500px;
+    background-image: url('/Assets/w3codes.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.exercise-section h3{
+
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 50px;
+    padding-top: 55px;
+}
+.exercise-section p{
+
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+/* Quiz Section Style Starts */
+.quiz-selction{
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-around;
+}
+
+.quiz-selction h2{
+
+    padding: 80px 250px;
+    margin-top: 60px;
+    font-size: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.exc{
+    background: #06c47e;
+    color: #FFFFFF;
+}
+.exc:hover{
+    background: #05A66B;
+}
+.qz{
+    background: #ebe2a1;
+    color: #000000;
+}
+.qz:hover{
+    background: #f5ea9a;
+}
+/* Quiz-Section Style Ends */
+/* Excercise-Section Style Ends */
+
+/* web-template Section Style */
+.web-template{
+
+    width: 100%;
+    height: 700px;
+    background: #E7E9EB;
+}
+.web-template h2{
+
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+.web-template p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.web-template img{
+    width: 950px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+/* b-Temp Section Style Starts */
+.b-temp{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.b-temp h3{
+
+    text-align: center;
+    padding: 12px 250px;
+    background: #202020;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.b-temp h3:hover{
+    background: #000000;
+}
+/* B-Temp Style Ends */
+/* Web-Template Section Style Ends */
+
+/* Certify Section Style Starts */
+.certify{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #282A35;
+}
+
+.certify h2{
+    font-size: 52px;
+    padding: 35px 40px;
+    color: #FFC0C7;
+}
+
+.get-start h3{
+    display: inline-block;
+    padding: 15px 40px;
+    background: red;
+    margin-left: 40px;
+    border-radius: 25px;
+    background: #06ad70;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.get-start h3:hover{
+    background: #059862;
+}
+
+/* Arrow-icon And Certified-icon Style Starts */
+.arrow-icon img{
+
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    transform: rotate(50deg);
+    left: 900px;
+    bottom: 25px;
+    z-index: 1;
+
+}
+
+.certified-logo img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1050px;
+    bottom: -80px;
+}
+/* Arrow-icon And Certified-icon Style Ends */
+/* Certify Section Style Ends */
+
+/* how-to Section Style  */
+.how-to{
+    width: 100%;
+    height: 300px;
+}
+
+.how-to h3{
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    font-size: 60px;
+}
+.how-to p{
+    padding-top: 35px 0px;
+    text-align: center;
+    font-size: 23px;
+}
+
+/* How-to-btn Section Style Starts */
+.how-to-btn{
+    display: flex;
+    justify-content: center;
+}
+.how-to-btn h4{
+    padding: 15px 250px;
+    margin-top: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    background: #282A35;
+    cursor: pointer;
+}
+
+.how-to-btn h4:hover{
+    background: #000000;
+}
+/* How-to-Btn Section Style Ends */
+/* How-to Section Style Ends */
+
+/* Footer Section Style Starts */
+.footer{
+    width: 100%;
+    height: 450px;
+    background: #282A35;
+
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Foot-left Section Style Starts */
+.foot-left ul{
+    display: flex;
+    list-style: none;
+}
+.foot-left ul li{
+    padding: 10px 20px;
+    margin: 20px 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.foot-left ul li:hover{
+    background: #e9e7e7;
+}
+/* Foot-left Section Style Ends */
+
+/* Foot-Right Section Style Starts */
+.foot-right ul{
+    display: flex;
+   list-style: none;
+   margin-right: 15px;
+}
+
+.foot-right ul li{
+    margin: 25px 10px  ;
+    color: #ffffff;
+    cursor: pointer;
+}
+.foot-right ul li:hover{
+    color: #4CA240;
+}
+
+/* Foot-Right Section Style Ends */
+
+/* Social-icon Section Style Starts */
+.social-icon ul{
+
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top: 25 px;
+    margin-right: 20px;
+}
+
+.social-icon ul li{
+    font-size: 23px;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.social-icon ul li:hover{
+    background:#FFFFFF;
+    color: #000;
+}
+/* Social-icon Section Style Ends  */
+
+/* Footer Paragraph Section Style Starts */
+.footer p{
+    font-size: 15px;
+    color:#FFFFF2;
+    margin: 18px 10px;
+    word-spacing: 5px;
+    text-align: center;
+}
+.footer p span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.term:hover{
+    color: #44AF50;
+}
+.privacy:hover{
+    color: #44AF50;
+}
+.copyright:hover{
+    color: #44AF50;
+}
+/* Footer Paragraph Section Style Ends */
+
+/* Thumb-Icon Section Style Starts */
+.thumb-icon{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.fa-thumbs-up:hover{
+    color: #9C9DA2;
+}
+/* Thumb-icon Section Style Ends */
+
+/* W3Shop Section Style Starts */
+.w3school-shop{
+   display: flex;
+   justify-content: center;
+}
+
+.w3school-shop h3{
+    padding: 10px 250px;
+    margin-top: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    background: #08b676;
+    cursor: pointer;
+}
+.w3school-shop h3:hover{
+    background:#059862;
+}
+/* w3Shcool-shop Section Style Ends */
