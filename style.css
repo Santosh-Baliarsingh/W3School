@@ -1408,7 +1408,7 @@
 /* course-container Style Starts */
 .course-container{
     width: 100%;
-    height: 550px;
+    height: 1350px;
     background: #282A35;
 }
 
@@ -1473,6 +1473,116 @@
 .datascience:hover{
     background: #E9DF98;
 }
+
+/* Code Editor Section Style Starts */
+.code_editor h1{
+    width: 100%;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 120px;
+    /* border: 2px solid red; */
+}
+.code_editor h2{
+    font-size: 23px;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    margin: 30px 0px;
+}
+/* Code Editor Box Section Style */
+.code_editor_box{
+    width: 950px;
+    height: 378px;
+    border-radius: 5px;
+   background: #F1F1F1;
+    margin: auto;
+}
+/* Code Editor InnerBox Section Style */
+.code_editor_innerbox{
+    display: flex;
+}
+.code_editor_dots{
+    display: flex;
+}
+/* dots Section Style */
+.code_editor_innerbox .dots{
+    margin: 9px 5px 0px 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+}
+
+.code_editor_innerbox .orange_dot{
+    background: #ED594A;
+}
+.code_editor_innerbox .yellow_dot{
+    background: #FDD800;
+}
+.code_editor_innerbox .green_dot{
+    background: #5AC05A;
+}
+/* Code Editor Seacrh Section Style */
+.code_editor_search{
+    width: 680px;
+    height: 22px;
+    background: #FFFFFF;
+    margin: 8px  65px 0px;
+    padding:2px 5px;
+    color: #66667F;
+    font-size: 15px;
+}
+/* Code Editr List Section Style */
+.code_editor_list ul{
+    width: 950px;
+    /* border: 2px solid red; */
+    margin: 12px 0px 0px;
+    list-style: none;
+    display: flex;
+}
+.code_editor_list li{
+    padding: 15px;
+    cursor: pointer;
+    color: #000000;
+}
+#frontend{
+    background: #E7E9EB;
+}
+#backend_img{
+    display: none;
+}
+/* Front Editor Section Style */
+.code_editor .frontend_editor{
+    width: 300px;
+    font-size: 18px;
+    color: #ffffff;
+    background: #06b373;
+    border-radius: 5px;
+    padding:8px 8px;
+    text-align: center;
+    margin: 25px 200px;
+    cursor: pointer;
+}
+.code_editor .frontend_editor:hover{
+    background: #059862;
+}
+/* backend Editor Section Style */
+.code_editor .backend_editor{
+    width: 330px;
+    font-size: 18px;
+    color: #000000;
+    background: #f0e383;
+    border-radius: 5px;
+    padding:8px 8px;
+    text-align: center;
+    margin: 25px 200px;
+    cursor: pointer;
+}
+.code_editor .backend_editor:hover{
+    background: #f3e368;
+}
+/* Code Editor Section Ends */
+
 /* Course-Container Style Ends */
 
 /* color-picker Section Style */
