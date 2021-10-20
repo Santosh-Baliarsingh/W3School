@@ -1834,7 +1834,7 @@
 /* how-to Section Style  */
 .how-to{
     width: 100%;
-    height: 300px;
+    height: 900px;
 }
 
 .how-to h3{
@@ -1847,6 +1847,11 @@
     text-align: center;
     font-size: 23px;
 }
+.how-to h4{
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
 
 /* How-to-btn Section Style Starts */
 .how-to-btn{
@@ -1855,7 +1860,6 @@
 }
 .how-to-btn h4{
     padding: 15px 250px;
-    margin-top: 15px;
     font-size: 20px;
     border-radius: 20px;
     color: #FFFFFF;
@@ -1868,6 +1872,140 @@
 }
 /* How-to-Btn Section Style Ends */
 /* How-to Section Style Ends */
+
+/* Image Slider Box Section Style */
+.image_slider_box{
+    width: 950px;
+    height: 420px;
+    border-radius: 5px;
+   background: #F1F1F1;
+    margin: auto;
+    position: relative;
+}
+/* Image Slider InnerBox Section Style */
+.image_slider_innerbox{
+    display: flex;
+}
+.image_slider_dots{
+    display: flex;
+}
+/* dots Section Style */
+.image_slider_innerbox .dots{
+    margin: 9px 5px 0px 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+}
+
+.image_slider_innerbox .orange_dot{
+    background: #ED594A;
+}
+.image_slider_innerbox .yellow_dot{
+    background: #FDD800;
+}
+.image_slider_innerbox .green_dot{
+    background: #5AC05A;
+}
+/* Image Slidee Search Section Style */
+.image_slider_search{
+    width: 680px;
+    height: 22px;
+    background: #FFFFFF;
+    margin: 8px  65px 0px;
+    padding:2px 5px;
+    color: #66667F;
+    font-size: 15px;
+}
+/* SLide_container Section Style Starts Here */
+.slider_container {
+    position: relative;
+    width: 950px;
+    height:380px;
+    margin: 10px 0px 0px 0px;
+    background: #E3E6E8;
+    position: relative;
+}
+.slider_container .slideImage{
+    display: none;
+}
+.slider_container .slideImage img{
+    width: 100%;
+    height: 320px;
+}
+
+.slideImage .caption_test{
+    color:#ffffff;
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    bottom: 70px;
+    word-spacing: 5px;
+    font-size: 20px;
+}
+
+/* NumberText Section Style  */
+ .numbertext{
+
+    position: absolute;
+    color: #ffffff;
+    left: 10px;
+}
+/* Slide_btn Section Style */
+.slider_container .slide_btn{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.slider_container .slide_btn a{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.slider_container .slide_btn a:hover{
+    background: rgb(0,0,0,0.8);
+}
+/* Slide_dots Section Style */
+.slide_dots{
+
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    bottom: 15px;
+    padding: 5px 10px;
+    height: 30px;
+}
+.slide_dots .dots{
+
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #bbb;
+    display: inline-block;
+    margin: 0px 3px;
+}
+.slide_dots .dots:hover{
+    background: #717171;
+}
+/* Image SLider Section Style Ends */
+
+/* bar Section Stle Starts */
+.bar{
+    width: 60px;
+    height: 100px;
+    background: #282A35;
+    margin: auto ;
+}
+/* Bar Section Style Ends */
 
 /* Footer Section Style Starts */
 .footer{
